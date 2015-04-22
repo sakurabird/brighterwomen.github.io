@@ -90,8 +90,10 @@ a:after {
 }
 
 .navbar-inverse {
-	padding-bottom: 70px;
-	padding-top: 70px;
+  padding-bottom: 5px;
+	padding-top: 5px;
+  /*padding-bottom: 70px;
+	padding-top: 70px;*/
 }
 
 .navbar-inverse {
@@ -142,8 +144,10 @@ a:after {
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
-	padding-top: 70px;
-	padding-bottom: 70px;
+  /*padding-top: 70px;
+	padding-bottom: 70px;*/
+  padding-top: 20px;
+	padding-bottom: 10px;
 	background-color: #f2f2f2;
 }
 
@@ -151,7 +155,7 @@ a:after {
 #footer {
 	background-color: #2f2f2f;
 	padding-top: 50px;
-	padding-bottom: 50px; 
+	padding-bottom: 50px;
 }
 
 #footer p {
@@ -208,10 +212,10 @@ bt {
 
 /* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
 /* Effects also are controled by hover.zoom.js */
-.zoom { 
-    display:block; 
-    position:relative; 
-    overflow:hidden; 
+.zoom {
+    display:block;
+    position:relative;
+    overflow:hidden;
     background:transparent url(../img/loader.gif) no-repeat center;
 }
 
